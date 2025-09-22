@@ -9,7 +9,6 @@
   font-weight: 100;
   font-style: normal;
   margin-top: 10px;
-    color: hsl(212, 6%, 44%);
 }
 
 .poppins-200 {
@@ -234,6 +233,7 @@ img {
     height: auto;
 }
 
+/*
 
 @media (min-width: 320px) {
     
