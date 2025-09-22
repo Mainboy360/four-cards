@@ -235,3 +235,123 @@ img {
 }
 
 
+@media (min-width: 320px) {
+    
+    .four-cards-introductary-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 90px 20px 70px 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+
+    .four-cards-section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        padding: 0px 20px 100px 20px;
+    }
+
+
+    .four-cards-column-direction {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        gap: 50px;
+    }
+
+    .team-image-container,
+    .karma-image-container,
+    .calculator-image-container,
+    .supervisor-image-container {
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;
+        margin-top: 30px;
+        padding: 0px 0px 10px 0px;
+    }
+
+
+    .team-image-container,
+    .calculator-image-container {
+        padding: 0px 20px 10px 0px;
+    }
+
+
+
+    .team-builder-container {
+        padding: 0px 10px 10px 10px;
+        border-top: 5px solid  hsl(0, 78%, 62%);
+        
+    }
+
+
+
+    .supervisor-container {
+        padding: 0px 30px 10px 30px;
+        border-top: 5px solid hsl(180, 62%, 55%);
+
+    }
+
+
+    .karma-container {
+        padding: 0px 25px 10px 25px;
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+
+
+
+    .calculator-container {
+        padding: 0px 25px 0px 25px;
+        border-top: 5px solid hsl(212, 86%, 64%);
+
+    }
+
+
+
+
+
+    .team-builder-container,
+    .karma-container,
+    .calculator-container,
+    .supervisor-container {
+    box-shadow: -0px 5px 10px rgb(214, 191, 191);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    }
+
+
+
+    .supervisor-header-and-para,
+    .team-builder-header-and-para,
+    .karma-header-and-para,
+    .calculator-header-and-para {
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+
+    .team-builder-header-and-para {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .karma-header-and-para {
+        padding: 5px 0px 0px 0px;
+    }
+
+
+    img {
+        width: 40px;
+        height: auto;
+    }
+
+
+
+}
